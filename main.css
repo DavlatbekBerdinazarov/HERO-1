@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #6e38f7;
+    --secondary-color: #ffffff;
+}
+
+.container {
+  width: 70%;
+  /* background-color: red; */
+  height: 90vh;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 78px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    padding: 20px 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+.sign button{
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    gap: 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    width: 390px;
+}
+
+.content p{
+  color: var(--primary-color);
+}
+
+.content h1{
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.btn-down{
+    width: 100px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.btn-try{
+    width: 100px;
+    height: 40px;
+    border: var(--primary-color) 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--primary-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.logo{
+    position: fixed;
+    left: 40px;
+    top: 50%;
+}
+
+.scroll{
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-90deg);
+}
